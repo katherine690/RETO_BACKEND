@@ -16,9 +16,9 @@ Estrategia de Automatización e Informe Técnico
 
 Ejecución
 Para descargar las dependencias y ejecutar toda la suite de pruebas automatizadas de forma limpia, correr el siguiente comando en el IntelliJ:
-```bash
+bash
 mvn clean test
-```
+
 Reportes de la Ejecución
 Al finalizar el proceso, los reportes interactivos en formato HTML nativo de Karate se generan automáticamente en la siguiente ruta local del proyecto:
 `target/karate-reports/karate-summary.html`
